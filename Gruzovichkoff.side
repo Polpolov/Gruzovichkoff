@@ -1,0 +1,3885 @@
+{
+  "id": "6ba52990-1741-4a9e-82be-ae1899036e39",
+  "version": "2.0",
+  "name": "Gruzovichkoff",
+  "url": "https://gruzovichkof.ru/akcii",
+  "tests": [{
+    "id": "2a4fc1b2-dbbc-4c73-bf9d-3a2713e048ef",
+    "name": "Заказ машины по акции \"С НАМИ ВЫГОДНЕЕ\"",
+    "commands": [{
+      "id": "1762007c-64ce-43c0-b60b-871b9bb1522a",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "open",
+      "target": "/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4ec6e03-ed6d-4863-accd-6604a9886251",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bea521b-ff0f-401e-9b92-a356508700eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa9dc7c3-b82d-40b6-9c34-71e7640fc82e",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec6558b9-35b8-47a8-80b8-742e613b08ad",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 888-88-88"
+    }]
+  }, {
+    "id": "97ed48c4-b6b5-4b89-a955-2d65e183a030",
+    "name": "Заказ машины по акции \"Дачный переезд\"",
+    "commands": [{
+      "id": "a25e8283-1ef9-430d-a6d6-d8dd1f8ff3f5",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4e91bfb-1ad1-42fd-bdc3-5ddfc7bb5465",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "949d2211-1fb7-4367-b2f5-12f0d72fde6c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6003da2-ef49-4a8d-9998-bd03059e8ab3",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9a5932c-56c0-4bce-a090-0477e3b45dec",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.contentWrapper_0bf",
+      "targets": [
+        ["css=.contentWrapper_0bf", "css:finder"],
+        ["xpath=//jdiv[@id='jcont']/jdiv[2]", "xpath:idRelative"],
+        ["xpath=//jdiv[3]/jdiv[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe569eaa-9026-4318-ba58-05be1af4eeac",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c75c45d-3cdc-4e64-8564-f81a2c74f803",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75c88450-8900-4253-bc2e-60c232f44b00",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb80e5e-92bf-44e8-bca1-b97c95be82d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "447d9d12-0a0b-42ff-a89e-6184aef141e0",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee886dba-5b3c-43af-bbd1-0406ab884ec0",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.MuiGrid-grid-md-8",
+      "targets": [
+        ["css=.MuiGrid-grid-md-8", "css:finder"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2565ce0-1aa1-4304-b0c0-1528beb9988f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-grid-md-8",
+      "targets": [
+        ["css=.MuiGrid-grid-md-8", "css:finder"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "335faf55-8b76-4861-b99a-fe67817e2eb0",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 777-77-77"
+    }]
+  }, {
+    "id": "2a6edf6e-09af-4b18-ba69-ce54cd7eeef3",
+    "name": "Заказ машины по акции \"Фиксированный тариф\"",
+    "commands": [{
+      "id": "dfd41523-29f2-47cd-b0d5-e7949b7de150",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c6dc50c-5185-480c-bd2e-b0c740b2f9fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04f038f0-6d10-4b63-bc8a-fc4a4037de9f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,152)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46505161-4adc-419a-8584-a7d4d896f7fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[3]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "379503f1-edaf-4ebe-b4a9-ac55d78eb281",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8692944c-f840-4414-909a-6020a0ecebb4",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 312-31-23"
+    }]
+  }, {
+    "id": "1ca2b6a8-ca23-40ac-a3d6-c0801b59f309",
+    "name": "Заказ машины по акции \"Перевезем за полчаса!\"",
+    "commands": [{
+      "id": "24e62f10-e448-42a7-8140-b7ad10b5b3ce",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7414713-32f7-4469-95b2-3c0c8e5e4160",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffd3f842-ddfa-4a20-aba1-d3d57b245b7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(4) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(4) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[4]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c460c7e-2c2e-4b58-b686-cd52e7f7f5e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b0696c-c524-4030-b8e5-3895e1ec9a0d",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 747-47-66"
+    }]
+  }, {
+    "id": "c4fa92f5-7b53-4fde-8744-8476b3ef37ba",
+    "name": "Заказ машины по акции \"Газель +1 или 2 грузчика\"",
+    "commands": [{
+      "id": "f58297b0-459f-43e2-8718-3a986e551e05",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25bf1ce4-2c71-4b5d-b0f7-7e0289b556c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db685c71-da05-426b-9d3d-669f41843201",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-grid-sm-4:nth-child(5) > .MuiGrid-root > .MuiGrid-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiGrid-grid-sm-4:nth-child(5) > .MuiGrid-root > .MuiGrid-root:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "193738cb-361b-4865-8262-6a7dff85c6af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(5) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(5) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[5]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3af03f1-f3af-4012-b05c-80df76af7a0d",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dd9c46a-973a-46d1-a4a6-eb198901c0db",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 332-32-22"
+    }]
+  }, {
+    "id": "b7073dcf-f730-4ac0-9869-237d0047bf51",
+    "name": "Заказ машины по акции \"Скидка для всех пенсионеров\"",
+    "commands": [{
+      "id": "ff9f46b5-42df-4e31-95c3-30e2a1bea0ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4704cc0-f316-487d-81c7-d1ea516141ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9765f72-cf9b-4941-99b2-2a53501e82e4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,510)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49caeee7-e562-4069-bee4-7acdc2f0da48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(6) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(6) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[6]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1b17ac7-f5d5-4bbb-9dff-dc8b874aff43",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "724,399"
+    }, {
+      "id": "3eac5d18-5b46-436c-a807-30dd7a69d9ee",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "724,399"
+    }, {
+      "id": "2bb253e0-5170-4c13-b213-ea61733ce221",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "724,399"
+    }, {
+      "id": "1d3c0c17-5560-4d84-a74a-158a86967dd1",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8c15582-029c-4f1a-ba34-11fcbf47ec49",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 212-31-21"
+    }]
+  }, {
+    "id": "5862978a-922f-405c-b536-9aff196f541d",
+    "name": "Заказ машины по акции \"Безлимитная перевозка XL\"",
+    "commands": [{
+      "id": "015c2537-3daa-4763-af7a-96247a131aac",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ad8d7a0-fa86-4a6e-82c6-d4435551b97e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1092d94-8937-474d-8756-7b686c67b965",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,207.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b564e81a-caea-44db-9d66-1a549928cff7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,711.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75892ae8-7098-4a27-80e7-9ec1f5d783c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(7) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(7) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[7]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbdfc29b-d3bb-48ae-bb28-cafa0c224d7c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "721,254.66668701171875"
+    }, {
+      "id": "9be64d81-e240-4387-a484-963a72d4a500",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "721,254.66668701171875"
+    }, {
+      "id": "049fe8aa-4624-439d-ae0c-8ea0b7d6802a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "721,254.66668701171875"
+    }, {
+      "id": "335c3f2b-6bd5-41a7-9c9d-3e65333c90ee",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c316a5a6-098e-4bbe-a256-d5938a7f93f7",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 312-31-23"
+    }]
+  }, {
+    "id": "fcdb996a-c951-4720-86dc-4659d5ea459e",
+    "name": "Заказ машины по акции \"Из Санкт-Петербурга в Москву\"",
+    "commands": [{
+      "id": "4b77623c-fb0d-4875-9a16-ddf83ada2f4c",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a89a22ed-90c6-4a10-b10c-39890f1d98cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6c73c4d-4d0d-4204-a9a4-210a625f1278",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,744.6666870117188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8735fd4-ed97-46e0-8050-5fbaac2e10da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(8) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(8) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[8]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d303aac-3130-4bd7-9438-857298167c1e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "706,314.33331298828125"
+    }, {
+      "id": "f8cb6f11-19c5-4b54-83ce-03408d6c3e21",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "706,314.33331298828125"
+    }, {
+      "id": "5f8af5cc-8922-4f59-a52d-a4cc1e512444",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "706,314.33331298828125"
+    }, {
+      "id": "028d43e7-f563-483e-906e-7e2927ab0c00",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f36ad47f-9697-425e-9f20-99cbbcca20b4",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (976) 543-34-55"
+    }]
+  }, {
+    "id": "b20c5db4-1cf2-4038-a474-eba81d273f9d",
+    "name": "Заказ машины по акции \"Открытое время\"",
+    "commands": [{
+      "id": "5b6a22c4-edde-4570-8024-80629704ca00",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1698ad23-5064-4d48-ab05-10d22a56ce65",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5622a40-f364-437d-a220-633ea8a57d5f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,731.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e0fc1c1-60ce-487f-8267-784bf4f390a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(9) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(9) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[9]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "785450eb-ce87-48cb-8b6b-807e0251ab54",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,291.66668701171875"
+    }, {
+      "id": "a71841ff-33ba-43bd-8be7-47c93d7e123e",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,291.66668701171875"
+    }, {
+      "id": "e721bfc0-570c-4bae-87a8-d36d3558cb7f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,291.66668701171875"
+    }, {
+      "id": "4a176ffc-4f29-4288-b636-cc7656db010b",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8e8f4ce-1aff-4045-aa9d-14d5732dd74e",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (966) 545-46-45"
+    }]
+  }, {
+    "id": "36aa03c3-1413-4877-920d-028d357f3ff5",
+    "name": "Заказ машины по акции \"Попутный груз\"",
+    "commands": [{
+      "id": "10e60c27-5221-4132-b387-a44e01f45b20",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7422c82-9691-46b2-b7d7-a668f45bd243",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42374d12-0ca1-4706-92db-6824149606ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,993.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85f071e2-ad3a-4bb7-987e-21074f8ba1de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(10) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(10) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[10]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85492a59-16c8-4629-a0f8-2c9c8204bfb2",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "698,303.66668701171875"
+    }, {
+      "id": "a8735f39-ac54-4e56-b149-d7d5680bebbf",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "698,303.66668701171875"
+    }, {
+      "id": "ed4138ec-674c-4263-adae-2d88b673e3ab",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "698,303.66668701171875"
+    }, {
+      "id": "6fee1b97-10d6-46fa-be31-7a09643e0b65",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75887395-6abb-47eb-b394-b19206806104",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (956) 565-65-65"
+    }]
+  }, {
+    "id": "c52ec1ad-39d6-41bd-973a-0c4bd95ad722",
+    "name": "Заказ машины по акции \"Счастливые часы\"",
+    "commands": [{
+      "id": "5b5d4627-15a9-4018-8d2c-1e15d247c93d",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24705b50-7fd4-41d3-8152-ed7035dc034b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b942d90-389d-416d-97fb-08cc886b3856",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,234.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "934269b3-e8d9-45a8-8cd5-ecba510f796a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,959.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "777fa7eb-f314-45ca-beaf-8d432bf14bbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(11) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(11) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[11]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "891eac53-4f19-4688-b712-c8257cb75a0b",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "700,392.66668701171875"
+    }, {
+      "id": "4ffde788-3779-463e-b207-d968e1310c3b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "700,392.66668701171875"
+    }, {
+      "id": "0fd06e1d-a562-4dd8-b5b3-9ff2ffbc8570",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "700,392.66668701171875"
+    }, {
+      "id": "d9070f0e-dff5-4274-87c3-159151eec82f",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a3d45b-4a9e-4db1-9145-7f469948fae3",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (912) 615-23-12"
+    }]
+  }, {
+    "id": "820a1074-9fd1-4ebe-af5e-434f43fefdf3",
+    "name": "Заказ машины по акции \"Скидка 30% на перевозки по выходным\"",
+    "commands": [{
+      "id": "72b73533-f619-4513-97a6-31d809ff3c8d",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90b55b8b-0bf3-4b1e-8745-00c51390341d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48646b0f-4865-4b58-8316-221febdedda9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1087.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd5b8105-6af5-4d22-a458-3803632df348",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(12) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(12) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[12]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54406dba-44c0-4e7e-a783-422d3d339877",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "710,326.6666259765625"
+    }, {
+      "id": "65da8728-a901-4aab-aaa4-347033833a8f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "710,326.6666259765625"
+    }, {
+      "id": "72e2a3a8-13d6-40ab-b006-db2144772889",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "710,326.6666259765625"
+    }, {
+      "id": "479d7063-9831-4728-9ce7-9a786339569c",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9e0550d-4ad8-4131-8772-98f83ed6339b",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 312-31-23"
+    }]
+  }, {
+    "id": "61d2dd33-fc40-489c-86bf-bdc51c0f8e3c",
+    "name": "Заказ машины по акции \"От магазина до дома за 540 Р!\"",
+    "commands": [{
+      "id": "ae36d2fa-0ab5-439f-9478-9923f36227fb",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64b6dc97-d7e9-4fb8-b8ce-ba4b2110b0bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97c62065-b015-4834-b665-15073b0d3651",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,241.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21321896-1527-4eed-b4a7-b0fdb02aefd2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1248)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "561178c9-9325-40a6-af80-19a2d9b884ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(13) > .MuiGrid-root > .MuiGrid-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(13) > .MuiGrid-root > .MuiGrid-root:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[13]/div/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43cac8aa-4814-4a28-b882-160988c6aea7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(13) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(13) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[13]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d55850e8-ec77-4afd-9bc5-fd1606d0bf70",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "704,304"
+    }, {
+      "id": "31ffcda0-339d-4021-9bfe-3cfa20b83e14",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "704,304"
+    }, {
+      "id": "2a6e2782-3145-482d-9507-c19957730ece",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "704,304"
+    }, {
+      "id": "d8902062-889a-4242-b174-37b61eb23401",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a1c44fd-686f-4d97-aeb5-bebdc24e43ce",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) 212-31-23"
+    }]
+  }, {
+    "id": "a522fdbb-1335-4fb0-b825-877ddc90b295",
+    "name": "Заказ машины по акции  \"Все учтено\"",
+    "commands": [{
+      "id": "26cda6d0-01c3-42af-9402-b227fbb18a54",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5baa0f4d-c4d8-48ef-88be-c748a9db3fc8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47d35480-f586-494d-b4fe-a05b5e8a401a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,234.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29845843-fb72-48d1-b13b-4d91cefb93d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1308.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6bdef28-fba5-44d7-abd1-5b2199d15be0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(14) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(14) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[14]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6388404a-2185-4176-8ca2-31d88bcb7261",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "718,344.3333740234375"
+    }, {
+      "id": "b8474b9a-678e-4df1-ba94-d6eae7a0db15",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "718,344.3333740234375"
+    }, {
+      "id": "d79e3e5a-f7f1-4061-ad5a-4cbeb1746e77",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "718,344.3333740234375"
+    }, {
+      "id": "0afff497-6abb-4712-a851-0a4e63d90f04",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "414f4641-9c90-40ec-98c7-bfc6c793d9ed",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (913) 123-12-31"
+    }, {
+      "id": "4337536b-6fee-4968-b3c4-138fe7e56b08",
+      "comment": "Не нажимаю \"Отправить\", ввожу случайный номер телефона. Можно заменить номер на актуальный",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9fbb636d-8bb7-450f-afab-fc8436d580f2",
+    "name": "Заказ машины по акции \"Скидка молодожёнам-15%\"",
+    "commands": [{
+      "id": "085de654-5411-499c-9c19-407f40fdbdb1",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1320af83-f20f-491e-85ea-6d1c22edc4e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72a7ec68-d7fd-4178-8d89-7fdc4ad27384",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1315.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b75ff804-e0b2-41a3-a2be-c2d199159296",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(15) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(15) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[15]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36dd63a4-1a8a-416a-b5a3-ffdf83a9fe07",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "720,386.6666259765625"
+    }, {
+      "id": "070d8184-391c-4e47-9efa-1594e5890607",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "720,386.6666259765625"
+    }, {
+      "id": "e037a396-93a2-4a42-ad70-831b017e153a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "720,386.6666259765625"
+    }, {
+      "id": "9403b97c-f6cd-4840-8022-cd004f0b27f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae6235a3-cd04-44e9-ba61-66884ac65111",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (912) 312-31-23"
+    }]
+  }, {
+    "id": "150d250b-d264-4d20-bbb0-a69d6641a756",
+    "name": "Заказ машины по акции \"Семейный счет\"",
+    "commands": [{
+      "id": "40b479a7-c734-4917-9b2a-e7dde6337c80",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5452ec61-8b90-400d-affb-fd334aa1d532",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "742x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16d358b9-edd0-4533-a0b5-e93472983c9c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,234.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ceeb8f9-e352-4630-978a-9b6794ddfa7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(16) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(16) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[16]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8834fd84-971b-4f52-8f0a-b66fab2da9e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(16) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(16) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[16]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8827aab-4c22-4989-98a7-7aa9d346d61d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,347"
+    }, {
+      "id": "f11fc45e-738b-43e2-bafa-b87db8800269",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,347"
+    }, {
+      "id": "4dda6125-d5ad-40fd-a093-82f23b2eefee",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,347"
+    }, {
+      "id": "d6cde375-908b-41a5-ba62-e8d724957348",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5484fbe-5d8b-4487-b1f3-26cad698f58d",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (912) 312-31-23"
+    }]
+  }, {
+    "id": "592bddb6-047d-4f43-817b-14d3514fa7e0",
+    "name": "Заказ машины по акции с вводом неполного номера телефона",
+    "commands": [{
+      "id": "cc0f02cc-4680-4cb4-9bde-b8332f2d57dc",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5649c54b-1084-4cfe-9f35-67cee8e14e3a",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d9ba83-fb02-4e75-aadc-7f7ce8829c97",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04e8e196-e683-4b08-98af-8ceae19fc693",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (921) ___-__-__"
+    }, {
+      "id": "fb33c319-453c-49e0-9264-8f0765c504ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d06c164-8899-4cec-af20-cd5bedbbc576",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb38272-daa2-4565-a6f4-2b7fdc11ad46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bb9a04a-8587-447c-8f00-11621e633b5b",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "974bfa6c-f7ee-40bf-95e8-81d9746efb86",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca40637a-ec6e-428c-8e63-9fe31d3e9034",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (9__) ___-__-__"
+    }, {
+      "id": "24cd89f6-b36a-4e65-9a04-caedf0641d08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acd39430-01a0-4b65-9e9b-0a4084b496e7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "386c70d1-24cb-4fb9-bcf3-ca8e27963099",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[3]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fef9a686-0fb1-4426-9ac2-6359a3f74354",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67b33eb-f153-4652-8378-6a7d6acd213a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33482376-5a2f-423f-b66b-3e7fafd53581",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (1__) ___-__-__"
+    }, {
+      "id": "da8e55c9-86a3-4233-9bfd-31c0cbdc1500",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b14db83-4d64-4678-b32c-5402077771c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(3) > .MuiGrid-root:nth-child(4) .MuiTypography-root > .MuiTypography-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(3) > .MuiGrid-root:nth-child(4) .MuiTypography-root > .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[4]/div/div/a/p", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Перевезем за полчаса!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "300919a3-5f5e-4a00-949d-1870728606f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4b994d-a4cc-4281-9130-6e1cff75b5e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb1730a-f299-4af6-8937-937ee6ea627f",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (891) 2__-__-__"
+    }, {
+      "id": "bcb92388-a2ac-4344-985a-5253c07b27eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85eb45b8-2319-422a-884e-3abf75553472",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(3) > .MuiGrid-root:nth-child(5) .MuiTypography-root > .MuiTypography-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(3) > .MuiGrid-root:nth-child(5) .MuiTypography-root > .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[5]/div/div/a/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'«Газель» + 1 или 2 грузчика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bddd992d-5f92-47b1-9180-8e0deda13345",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-grid-md-8",
+      "targets": [
+        ["css=.MuiGrid-grid-md-8", "css:finder"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e1263b-6977-447f-8e0c-3fe74f0214a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d69166-dcf7-4ee4-8ae5-2be84ae4b709",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fefcd4d-c604-403c-b6d4-21d9eb279118",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (213) ___-__-__"
+    }, {
+      "id": "32ecdac8-a932-43a2-b0dd-e5474ad0f018",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c24977f0-2dfa-414a-8d60-e8631cefcd97",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd8a403-e81a-4588-9ebf-c22eba5d5bbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(6) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(6) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[6]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff872928-8e56-41cf-abe1-d99d9094a3a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dce87ffe-803d-4109-8c56-474062ec2f62",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (123) 12_-__-__"
+    }, {
+      "id": "d767624b-a706-4c7d-bdb5-dbcc7de53e7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebfbaa1-8c89-4222-b466-6354fb951243",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(10) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(10) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[10]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d605050-1e17-4269-a525-b36462d6cded",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(10) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(10) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[10]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5464d97-9a18-4917-b72f-bbc30bf088cb",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5dda13-c8d1-47cd-b7a1-dd9e9ab1ec0e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f983d2aa-4aa7-4dc7-866d-f4d5e055706a",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (312) ___-__-__"
+    }, {
+      "id": "21a494c6-d95a-4b2a-838d-b9f280a6cee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "252315a1-785d-4cc5-b943-8ad5575c994f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f36d26be-11a5-4481-977e-944248d592ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(11) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(11) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[11]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d21e8eb-72a5-4609-817a-ab29157f5b14",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97e42307-3435-45a2-9c49-47f455bf3fac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe1bbc21-43ba-4bc3-bdc6-8b4af490e98a",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (123) ___-__-__"
+    }, {
+      "id": "2f8a5278-c44b-40ee-acd0-7d9fcaa29858",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24d7496b-2f04-4fa9-a19f-e6a6c56f29bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(12) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(12) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[12]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a8bc91c-c91f-46e9-9094-11fe0a840b2a",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0383d042-1f04-4b30-ad23-ddb24f307185",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11249020-f42e-4272-94a7-fc70f00c396e",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (12_) ___-__-__"
+    }, {
+      "id": "929a95d5-3312-4904-9de4-d472d21f6fd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e6ccfe-1a6d-410b-9deb-6f61f659b3de",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,260"
+    }, {
+      "id": "7a5b9935-014c-4e07-9ef7-0dde793f0966",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,260"
+    }, {
+      "id": "d5d39e89-cb88-42dc-ad4a-5d8ad04e35a1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "716,260"
+    }, {
+      "id": "16ecf84f-38d1-4b1e-b69e-115902f0689d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "724,448"
+    }, {
+      "id": "43abb98f-e619-4835-949c-e898563a9882",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "724,448"
+    }, {
+      "id": "f4ea8d72-5502-4eed-a461-bbc020e24352",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiDialog-paper",
+      "targets": [
+        ["css=.MuiDialog-paper", "css:finder"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": "724,448"
+    }, {
+      "id": "a72c42cb-b62c-4cbe-b95c-da844d96f710",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236 > path",
+      "targets": [
+        ["css=.jss236 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1c29ee-9a25-4ad9-8999-92230490e89b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(13) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(13) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[13]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2cca447-a4c2-481f-80cb-7e33f8bf3459",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "074ede44-e941-4b06-9133-3744b8b706e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aa6171e-df08-467c-92a0-e21f55268139",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (332) ___-__-__"
+    }, {
+      "id": "381adce8-67b3-49aa-822c-f08d3aec5070",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b91517-34e6-44b7-b031-2b884426f67e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(14) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(14) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[14]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b79d0188-0fe0-4451-b720-4bd94d031c16",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0de8215a-98e5-4602-b3eb-44c7606989ab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca7d01f7-a1ab-49c3-8936-1311ea538b16",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (456) 6__-__-__"
+    }, {
+      "id": "7b66e7fc-4486-4beb-af18-5b480f796c11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fc05281-2f31-4168-a7cf-00d220307943",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f66a089e-673f-4329-967a-e7488de5a62a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(15) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(15) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[15]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df1190b-1cf0-4faf-b152-873951d40f3d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(15) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(15) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[15]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad96ef5-8a40-4965-97f6-cb7a80ea1e3e",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f22f63d9-8b59-47db-9cd4-f548c5b00186",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a106456d-cbbc-42df-bd67-0a8c7a7e9065",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (232) ___-__-__"
+    }, {
+      "id": "5224f178-4fd1-4a32-8354-2ae677f84f3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230",
+      "targets": [
+        ["css=.jss230", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1804dc-1f29-4bbc-8aa5-20d53581c06a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236 > path",
+      "targets": [
+        ["css=.jss236 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb729a30-7f7e-4507-aa9c-a707209d805f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236 > path",
+      "targets": [
+        ["css=.jss236 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1589768-f10b-44c5-ab67-b2e9d7cbc15c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(16) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(16) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[16]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "610e4274-f9f8-48f6-bdf8-e99d8900f1bc",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b3220fd-349a-4d32-b029-9ba6216b79c7",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f383b066-2569-403a-a016-7e26a2d03d85",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "825da731-fa10-40df-9812-c999194039fd",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.jss245", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 (123) 12_-__-__"
+    }, {
+      "id": "0593d67b-82f9-451c-9bc2-6210ba17bd75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1760d6ec-92b6-40b8-bc31-564bd564d913",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss230 > .MuiButton-label",
+      "targets": [
+        ["css=.jss230 > .MuiButton-label", "css:finder"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b5ce20-23d2-41a5-9737-1c763521703e",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "436a0f7a-7c3a-42b6-8cc6-c28b5c0b2523",
+    "name": "Закрытие карточки акции (кнопка \"х\")",
+    "commands": [{
+      "id": "c7ff5f75-fabb-4515-a565-f5259301d6f1",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf019414-7cb8-49e7-86b5-94efdd47a7b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66f9d995-d583-4ce9-a36c-26f56551271f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,163.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bd7cee1-97d5-4e88-bfe3-be0ddc6233e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f8dc4df-8aff-43ca-8bed-7e2bf0ad8dd2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f064051f-50ad-466b-b25d-433e019aa584",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e84589f0-32f3-48fa-8c20-aa1ac7645aeb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss97:nth-child(1)",
+      "targets": [
+        ["css=.jss97:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/header/div[2]/div/div/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'еще')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5cf7e72-0873-48ad-b243-4d3f5bde8db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b401145-2724-43a6-b85d-c3b349c4361e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "16c74ae0-a8d6-4187-a203-6a20791ccea0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "13411e8d-0d74-452d-817f-9960fd26bb7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[3]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f6cfc74-b7d4-4b34-aff4-4290f474f7f0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cd3c3cf-9d56-4a89-bd5d-334452c11ede",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dab2f21-0400-4ffb-80e6-3543233727bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,202)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fa64c94-2bbb-44e5-ae88-ae3c704cdb22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(4) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(4) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[4]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d44df2e-0c67-4cbc-adfa-71d317017760",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236 > path",
+      "targets": [
+        ["css=.jss236 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80f1d14-66bc-427a-b51f-40c24eb97dd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236 > path",
+      "targets": [
+        ["css=.jss236 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "64d0c305-7b09-458d-96e2-1b39385d3c73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(5) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(5) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[5]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d56d813-fd4c-4cd7-9289-48055e23a8b4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "362068f0-f9e1-4a34-838d-3b190dee12d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a5c1c0-7bb0-4a09-94c8-f1488995a0e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(6) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(6) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[6]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5acdfebc-cb9b-4a10-9958-bfe0ce245c86",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "72ca1509-570a-4db9-aa5a-440f2aac4ee6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "77f24153-4364-4d1b-94c4-fa2e3e3f9655",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(7) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(7) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[7]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf667de-ff35-49ed-9ecb-49902c0ba809",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec58940a-8bb4-4b02-a0ff-22e91b315809",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d276c36a-a508-4613-a3b4-f87ba1cfd682",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(8) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(8) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[8]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1cd5697-a185-4aa0-997e-eccccb080d91",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8ea0ecb-1a67-4784-b72a-5765a185efe4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d649829a-f584-450f-86bd-683a1747b6bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(9) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(9) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[9]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e64c9294-2cc6-430e-a026-cfa0cf3aee0b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bbf54d-b7cd-445f-90ee-7a23da5fce85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b5dad1-264f-40be-82e0-4ecc4b75bd8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(10) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(10) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[10]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8acc2a-d6f9-49e0-846c-dab18f5e59bf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea8f0875-ff9b-4f46-8163-8241271a286d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "559bcc67-2169-4431-8a8f-6804a8216498",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(11) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(11) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[11]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0dc749d-829a-4de5-8856-dea3f81417c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2b1e121-3629-4ca3-9064-d26f2004956c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7734bd78-a95e-499b-8a37-76513a1da200",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(12) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(12) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[12]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9914b6a4-3e7b-4414-a8c4-95769ddee240",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236 > path",
+      "targets": [
+        ["css=.jss236 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb3f65d-3c27-4e51-8cb2-3bef9f8d6bb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236 > path",
+      "targets": [
+        ["css=.jss236 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c0d082d-16b2-4df2-831b-41f8389a2fbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(13) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(13) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[13]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78cbdc13-1e27-4560-9a46-ff08ab41fc33",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e50d206-f4bc-40b2-bc89-030b1907dbb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss235",
+      "targets": [
+        ["css=.jss235", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[5]/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da3f9d8-e95f-4f74-9bb2-9d5f7516286f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(14) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(14) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[14]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae4f9401-8064-4355-9d80-433595a0a393",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2ce1964-aa13-4729-805a-c835bae59bfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa95623b-013d-41cf-9bb9-09094fdb47da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(15) > .MuiGrid-root > .MuiGrid-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(15) > .MuiGrid-root > .MuiGrid-root:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[15]/div/div", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "950ece11-7d8a-4017-966d-c73024ab55a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(15) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(15) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[15]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d1aaef7-32bf-4143-874f-29d31d693293",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "16b8f6c3-be88-4feb-9948-ec32a7af67a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea78e77-ec86-4a4c-8f6c-e9de554d87cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(16) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(16) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[16]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0940ad-11e5-4a18-8b34-03982143264b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddabea3b-5e7c-440a-ae41-eaca2203074a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss236",
+      "targets": [
+        ["css=.jss236", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80dc73f8-55ed-4d4a-80c7-50515a2c2332",
+    "name": "Закрытие карточки акции (кнопка \"Закрыть\")",
+    "commands": [{
+      "id": "5f79895a-c8d8-46a9-8527-59602bdbf5a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2c87b87-050a-4621-9767-5ce598a2c76a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "720c5eae-ad13-4b90-a596-85c35450e8e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "345e2304-1c36-4389-a75b-618d20d473ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "457831b6-19c3-4d39-ba63-7968927e86d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d00fa0-8850-404b-8743-fcaa3bb34ec3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "275e8908-73d5-4283-955f-7f1ccb9516b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6d7a20-3da6-4ce3-b81b-dd1381e1827a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root > .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[3]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1796c40e-8682-4448-b042-f3f02827ce9d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e5ab08e-57f2-4a84-8d61-57fcfc910335",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d121f562-6665-47a5-be74-7f5bddfe2381",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,202)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39714355-1158-4ba7-8694-1d593345fc53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(4) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(4) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[4]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24fb9688-e507-4c04-8712-e8f5177cb53b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,588)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a41182f-1634-4430-b75d-89401e1c1c7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "563e6bed-a9b9-4a3c-9866-ae4c11425242",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(5) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(5) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[5]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac446d71-61ca-46cd-8010-3bbf57804a05",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0176f5-546e-45db-9b9b-95efa01db995",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "295e9b1b-1bd1-448b-ad78-71f4af6467e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(6) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(6) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[6]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab9176b-f0d9-48e9-868c-dc4829730574",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,588)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "282bbf4c-3c8e-4d1d-a459-4fa952d7f41f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33cb2d21-9a96-4495-8e8d-4cde85b2c4f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(7) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(7) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[7]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da0fd383-fc7e-4d61-afaa-10afbd3d27ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeb17f9e-dcc0-4182-bcfd-815cdd955773",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de7d5d29-4858-42fd-96ec-96ce9e27fa6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(8) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(8) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[8]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d62ceb43-2479-4b49-9f5b-cfaa574117f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd2c9358-d135-40e9-bcdd-fd3662f6f427",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a84d0a2-6845-4aba-87b2-9ad353a6cda4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(9) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(9) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[9]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7c41e41-902b-4aa7-8b61-192ee0d5d4c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9acbe7ce-a12b-4dbc-bd75-4ed417fa98f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c69d061-6086-40d2-bb92-794df7fd8063",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(10) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(10) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[10]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c4bbe5-db1f-4638-a3f1-b593b7e78a09",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaeae41a-9d21-4e26-9f90-08026453433a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de206d7b-0228-4413-ac97-28c0335b6768",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(11) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(11) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[11]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3546b4aa-b280-4ede-8558-3664826cd4ca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e5990f5-6a8e-4dbe-acda-87870c14ad68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d689f4-21ed-42ca-b062-874c3b66341c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(12) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(12) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[12]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dccfa022-9d43-4662-85d3-f52563cb4ee5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03f9522e-020e-4bf9-97fd-75887325e27a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a7463dd-126e-4be4-8d5c-f8bd69752589",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(13) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(13) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[13]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a848d122-20b7-4055-af12-4b929ff5d9b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b9b5443-c1c6-41bd-9d5d-023e02c9ac91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c730805f-2464-4c11-94b8-34350f00b017",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(14) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(14) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[14]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc0e3d28-3c27-4237-958e-3eabf433da2c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa1a73a3-a378-47a3-90c2-42a4d9aa6e58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc696b20-7014-4051-a704-3b155d59d6d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(15) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(15) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[15]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26f8f642-b39d-44eb-b152-1907b68e800c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eafd3a84-0e29-4ea5-997f-5a40e942de40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240 > .MuiButton-label",
+      "targets": [
+        ["css=.jss240 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb8a8f2-b5c8-4c0d-82c8-efd0d118facf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(16) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(16) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[16]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a583c90f-be09-441a-84a9-a960ef8cc7eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(16) .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(16) .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[16]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9933d9ce-28c1-4818-bb76-6553bcf181a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e1ad205-712d-4948-9259-49a707457859",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss240",
+      "targets": [
+        ["css=.jss240", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f4b90b65-7ed3-4e87-b01b-02bfc6abaa75",
+    "name": "Переход на страницу политики конфиденциальности из карточки акции",
+    "commands": [{
+      "id": "e146b2ee-9d97-4d97-8a7a-c5c2a41f8337",
+      "comment": "Проверяю только одну ссылку в одной карточке акции",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49a33964-cf67-4966-b260-c32c2aca3c54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9782342-719c-42f7-b424-bdbe8d06568b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(1) > .jss101",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .jss101", "css:finder"],
+        ["xpath=//div[@id='__next']/header/div[2]/div/div/div/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/onlajn-oplata')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92aec640-47da-4a01-8962-4ca90a0911dc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root:nth-child(6) .MuiTab-wrapper",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(6) .MuiTab-wrapper", "css:finder"],
+        ["xpath=//div[@id='__next']/header/div[2]/div/div/div/div[2]/div/div/div/div/div/div/a[5]/span/span", "xpath:idRelative"],
+        ["xpath=//a[5]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "900ee910-7769-4ded-9478-e9b34b9aa667",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root:nth-child(5) .MuiTab-wrapper",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(5) .MuiTab-wrapper", "css:finder"],
+        ["xpath=//div[@id='__next']/header/div[2]/div/div/div/div[2]/div/div/div/div/div/div/a[4]/span/span", "xpath:idRelative"],
+        ["xpath=//a[4]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da5a81fb-2984-44f8-8b27-82421eafc0f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,266)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd9f57ff-5ba6-482d-8f8b-3001d7a4fc25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce964f65-4f9e-410d-9d7b-a885bd58633c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=обработку ваших персональных данных",
+      "targets": [
+        ["linkText=обработку ваших персональных данных", "linkText"],
+        ["css=.jss234 > .MuiTypography-root", "css:finder"],
+        ["xpath=//a[contains(text(),'обработку ваших персональных данных')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/politika-konfidencialnosti')])[2]", "xpath:href"],
+        ["xpath=//div[2]/p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'обработку ваших персональных данных')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "93fb559e-4553-4a71-a4a1-66a03867fd9e",
+    "name": "Получить купон",
+    "commands": [{
+      "id": "03d66dd7-a009-40db-8819-bb1c456260af",
+      "comment": "Проверяю только один купон",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bf97675-f1d8-4403-8e61-615e13ea6d4d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5cca02d-b847-4589-9743-201c05a89229",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root .MuiTypography-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div/div/div[3]/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ebb2953-c1a1-4272-9903-538969617897",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root .MuiTypography-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div/div/div[3]/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4559d4f2-820b-4057-9013-332d44ec8ebf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root .MuiTypography-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div/div/div[3]/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b4bed25-b9aa-49f1-8ed8-453141585baf",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa0505c-c4cc-4a08-a66b-2a29f06f58f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss342 .MuiTypography-root",
+      "targets": [
+        ["css=.jss342 .MuiTypography-root", "css:finder"],
+        ["xpath=//div[4]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2842c03-c9fa-4457-bd95-49e074ef9f59",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "pol@mail.ru"
+    }, {
+      "id": "0c8be4bd-84af-4913-8581-e8681718f69f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss342 .MuiTypography-root",
+      "targets": [
+        ["css=.jss342 .MuiTypography-root", "css:finder"],
+        ["xpath=//div[4]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc0d228-a109-4c5c-bae3-a2c52790a2d0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss342 .MuiTypography-root",
+      "targets": [
+        ["css=.jss342 .MuiTypography-root", "css:finder"],
+        ["xpath=//div[4]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5aa19544-c7d0-4906-8a60-161ab9d275aa",
+    "name": "Закрытие карточки получения купона",
+    "commands": [{
+      "id": "7c599ce1-eee5-4566-a842-ec822c0ade12",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8fb1142-bde8-43e8-a4d1-58764f8c74c2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba0c099e-0595-4206-8fc6-d42b208a1f65",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,348)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2767eb5e-3420-4271-a88f-c982677d5e08",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1477.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "381f8408-3357-4d65-8fbb-e2c15ac45b04",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div/div/div[3]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Получить купон')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0ac4e9-f3c9-4685-b629-9cbf3074e471",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div/div/div[3]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Получить купон')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4005d30f-4ffc-4b17-91b9-c4c288ddd95c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root > .MuiGrid-root:nth-child(3) > .MuiGrid-root > .MuiGrid-root > .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div/div/div[3]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Получить купон')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b93e84d6-08ca-4a35-945e-4f8c01e7b5de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss350",
+      "targets": [
+        ["css=.jss350", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "11ebea55-3ade-46a3-aabd-567c734a988c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss350",
+      "targets": [
+        ["css=.jss350", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9488ab85-1ad0-4ced-8dbb-5773ac19989d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiGrid-root > .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div[2]/div/div[3]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'при заказе от 10 000 р.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34cbaafb-b5e2-4fbc-8db5-65f7b408b5ed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss367",
+      "targets": [
+        ["css=.jss367", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d698376-42fc-490b-9125-763130a3baaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss367",
+      "targets": [
+        ["css=.jss367", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "03039e88-fc23-46d4-b8ab-fbf4e2603d81",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss367",
+      "targets": [
+        ["css=.jss367", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "72fe5ef3-54d4-4065-ada1-049447d35017",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss206 > .jss205",
+      "targets": [
+        ["css=.jss206 > .jss205", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f0f9a1a-bc27-4152-b1b6-d96ca68e95d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss384",
+      "targets": [
+        ["css=.jss384", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb11742b-ced0-4b8c-864e-844f62c54ccb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss384",
+      "targets": [
+        ["css=.jss384", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "53f8d220-4bcc-47ac-b53e-367594eca3fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss195 .MuiGrid-grid-xs-12",
+      "targets": [
+        ["css=.jss195 .MuiGrid-grid-xs-12", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div[4]/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67419474-8241-4178-9398-4ac026149f8f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2488)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4169ac8b-ae2b-4aa1-865a-4d6ed6fb0a2b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss401 > path:nth-child(2)",
+      "targets": [
+        ["css=.jss401 > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "80ffedfb-461b-4a6e-a4b7-cca55872f3fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss401 > path:nth-child(2)",
+      "targets": [
+        ["css=.jss401 > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c36668eb-d6d4-45a7-838f-5ead37905b51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss195 .MuiGrid-grid-xs-12",
+      "targets": [
+        ["css=.jss195 .MuiGrid-grid-xs-12", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section[2]/div/div/div/div/div[5]/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9184a7b-28a2-44b7-822f-3eab76ab0e2d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss418",
+      "targets": [
+        ["css=.jss418", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "31f1b0cb-d2ff-479c-9575-991a30970ecc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss418",
+      "targets": [
+        ["css=.jss418", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c3cf36e6-1457-4549-81b9-2361f793d884",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2a4fc1b2-dbbc-4c73-bf9d-3a2713e048ef"]
+  }],
+  "urls": ["https://gruzovichkof.ru/", "https://gruzovichkof.ru/akcii"],
+  "plugins": []
+}
